@@ -8,6 +8,7 @@ app.controller('NavCtrl', function($scope, $location, PostService, AuthService) 
   $scope.logout = AuthService.logout;
   $scope.user = AuthService.user;
 
+  /*
   $scope.post = {url: 'http://', title: ''};
 
   $scope.submitPost = function() {
@@ -19,4 +20,5 @@ app.controller('NavCtrl', function($scope, $location, PostService, AuthService) 
       $scope.post = {url: 'http://', title: ''};
     });
   };
+  */
 });
